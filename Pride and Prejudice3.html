@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Volume of Undying Regard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+        :root {
+            --paper: #fdfaf0;
+            --ink: #2c241e;
+            --sepia: #705a46;
+            --border: #d4c5b3;
+            --line: rgba(112, 90, 70, 0.2);
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            background-color: #d7ccc8;
+            background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+            color: var(--ink);
+            font-family: 'EB Garamond', serif;
+            margin: 0;
+            padding: 0;
+            line-height: 2;
+        }
+
+        .manuscript {
+            background-color: var(--paper);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 150px 100px;
+            box-shadow: 0 0 100px rgba(0,0,0,0.2);
+            border-left: 2px solid var(--border);
+            border-right: 2px solid var(--border);
+            position: relative;
+        }
+
+        /* Introduction & Title */
+        header {
+            text-align: center;
+            margin-bottom: 150px;
+        }
+
+        .script-font {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 4rem;
+            color: var(--sepia);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            font-size: 1.5rem;
+            margin-top: 20px;
+            border-top: 1px solid var(--sepia);
+            border-bottom: 1px solid var(--sepia);
+            display: inline-block;
+            padding: 10px 40px;
+        }
+
+        /* Navigation Links (Traditional Book Style) */
+        .contents {
+            margin: 100px 0;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .contents a {
+            color: var(--sepia);
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .contents a:hover { color: var(--ink); text-decoration: underline; }
+
+        /* Chapter Styling */
+        .chapter { margin-bottom: 200px; }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            color: var(--sepia);
+            font-weight: 400;
+            font-size: 2rem;
+            margin-bottom: 50px;
+        }
+
+        .drop-cap {
+            float: left;
+            font-family: 'Playfair Display', serif;
+            font-size: 6rem;
+            line-height: 0.7;
+            padding-right: 15px;
+            padding-top: 15px;
+            color: var(--sepia);
+        }
+
+        .quote-block {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            text-align: center;
+            margin: 120px 60px;
+            color: var(--sepia);
+            font-style: italic;
+            line-height: 1.4;
+        }
+
+        .divider {
+            text-align: center;
+            margin: 100px 0;
+            font-size: 2rem;
+            color: var(--border);
+        }
+
+        /* Detailed Lists */
+        .sketch-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 50px;
+            margin-top: 50px;
+        }
+
+        .sketch-box {
+            border: 1px solid var(--line);
+            padding: 40px;
+            background: rgba(255,255,255,0.5);
+        }
+
+        .sketch-box b {
+            font-family: 'Playfair Display', serif;
+            text-transform: uppercase;
+            color: var(--sepia);
+            letter-spacing: 2px;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        /* The "Long Letter" Section */
+        .long-letter {
+            padding: 60px;
+            border: 1px solid var(--border);
+            background-color: #fff;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
+            transform: rotate(-0.5deg);
+        }
+
+        .signature {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 3rem;
+            text-align: right;
+            margin-top: 60px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 200px;
+            padding: 60px;
+            border-top: 1px double var(--border);
+            font-style: italic;
+            color: var(--sepia);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="manuscript">
+        <header>
+            <span class="script-font">My Dearest Raven.</span>
+            <h1>Volume I: The First Edition</h1>
+            <div class="contents">
+                <a href="#chap1">Chapter I: On the Perfection of Character</a>
+                <a href="#chap2">Chapter II: The Splendor of Mind</a>
+                <a href="#chap3">Chapter III: A Testimony of Affection</a>
+                <a href="#chap4">Chapter IV: The Quietude of Domestic Happiness</a>
+                <a href="#chap5">Chapter V: Observations on a Shared Future</a>
+                <a href="#chap6">Chapter VI: A Collection of Small Joys</a>
+                <a href="#chap7">Chapter VII: Final Proclamations</a>
+            </div>
+        </header>
+
+        <section id="chap1" class="chapter">
+            <h2>Chapter I: On the Perfection of Character</h2>
+            <p><span class="drop-cap">I</span>t is a truth universally acknowledged, that a heart once touched by your grace is forever altered. One does not simply look upon you and remain unchanged; it is as if the very air grows lighter in your presence. Like Elizabeth Bennet, you possess a spirit that refuses to be dampened by the mundanity of life. You find beauty in the small, wit in the weary, and joy in the simple act of being.</p>
+            <p>Your character is a study in balance—strength tempered by kindness, and intelligence sharpened by a most delightful sense of play. I have spent many an hour in quiet contemplation, wondering at the fortune that led our paths to cross in this vast and busy world.</p>
+        </section>
+
+        <div class="divider">❦</div>
+
+        <section id="chap2" class="chapter">
+            <h2>Chapter II: The Splendor of Mind</h2>
+            <div class="sketch-grid">
+                <div class="sketch-box">
+                    <b>Of Wit and Wisdom</b>
+                    <p>There is a certain sharpness to your mind that I find utterly intoxicating. To converse with you is to be challenged, enlightened, and entertained all at once. You possess that rare quality of "informed opinion" which Jane Austen herself so highly prized.</p>
+                </div>
+                <div class="sketch-box">
+                    <b>Of Discernment</b>
+                    <p>You see through the pretenses of the world with an eye that is honest but never cruel. Your ability to understand the hearts of others is nothing short of a gift, and I am the grateful recipient of that understanding.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="quote-block">
+            "You have bewitched me, body and soul, and I love, I love, I love you. I never wish to be parted from you from this day forth."
+        </div>
+
+        <section id="chap3" class="chapter">
+            <h2>Chapter III: A Testimony of Affection</h2>
+            <div class="long-letter">
+                <p>My Dearest,</p>
+                <p>If I were to take up my pen every day for a year, I still could not exhaust the list of reasons why you are the most remarkable woman I have ever known. I remember the very moment I realized my regard for you had moved beyond simple admiration and into the realm of the absolute.</p>
+                <p>It was not a thunderclap, nor a sudden storm, but a quiet dawn. I looked at you and realized that the world made sense only because you were in it. You are my Pemberley—the place where I find rest, where I find pride, and where I find myself home.</p>
+                <p>I remain, forever, your most humble and devoted admirer.</p>
+                <div class="signature">Mr. Anthony</div>
+            </div>
+        </section>
+
+        <div class="divider">❧</div>
+
+        <section id="chap4" class="chapter">
+            <h2>Chapter IV: The Quietude of Happiness</h2>
+            <p>We often think of love as a series of grand gestures—balls at Netherfield or dramatic letters delivered in the rain. But as I have grown to know you, I have learned that the truest love is found in the quietude. It is in the shared glances, the soft laughter over a private joke, and the comfort of knowing that another soul truly knows your own.</p>
+            <p>I find more joy in a single hour of your company than in all the diversions the rest of the world could possibly offer. Your presence is my favorite sanctuary.</p>
+        </section>
+
+        <section id="chap5" class="chapter">
+            <h2>Chapter V: Observations on a Shared Future</h2>
+            <p>I look toward the horizon of our lives with a hope I never dared possess before. To imagine the years unfolding before us is to imagine a library of infinite volumes—each chapter written by our hands, each page filled with the ink of our shared experiences. Whether we face the bright sun of prosperity or the gray mists of trial, I shall walk beside you with a steady heart.</p>
+        </section>
+
+        <div class="quote-block">
+            "I cannot fix on the hour, or the spot, or the look or the words, which laid the foundation. It is too long ago. I was in the middle before I knew that I had begun."
+        </div>
+
+        <section id="chap6" class="chapter">
+            <h2>Chapter VI: A Collection of Small Joys</h2>
+            <div class="sketch-grid">
+                <div class="sketch-box"><b>The Way You Smile</b><p>A light that puts the brightest ballroom to shame.</p></div>
+                <div class="sketch-box"><b>Your Voice</b><p>The only sound that can truly quiet my mind.</p></div>
+                <div class="sketch-box"><b>Your First Book</b><p>The pages that taught you to love, and in turn, taught me how to love you.</p></div>
+                <div class="sketch-box"><b>Our Future</b><p>The unwritten masterpiece I am most eager to read.</p></div>
+            </div>
+        </section>
+
+        <section id="chap7" class="chapter">
+            <h2>Chapter VII: Final Proclamations</h2>
+            <p>As this scroll comes to its conclusion, let it be known that my feelings are as enduring as the hills of Derbyshire. This website is but a digital ghost of the true sentiment I carry. You are my first thought in the morning and my last prayer at night.</p>
+            <p>I love you with a depth that words can only mimic. You are my Elizabeth, my home, and my heart.</p>
+        </section>
+
+        <div class="divider">🙖</div>
+
+        <footer>
+            Duly Noted & Signed with Sincerity<br>
+            On this day, February ,14th, 2026<br>
+            <span style="font-size: 1.2rem; color: var(--ink);">Forever Yours.</span>
+        </footer>
+    </div>
+
+</body>
+</html>
